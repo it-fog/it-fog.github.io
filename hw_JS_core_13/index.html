@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HomeWork JS Core 13</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="title">
+                Please sign up
+            </div>
+            <form name="regform" class="regform" id="reg-form">
+                <div class="form-field">
+                    <input type="text" name="inFirstN" id="">
+                    <label class="form-label">First name</label>
+                    <div class="indOk"></div>
+                    <div class="indWrong"></div>
+                    <div class="valid firstName">Please provide a valid First name</div>
+                </div>
+                <div class="form-field">
+                    <input type="text" name="inLastN" id="">
+                    <label class="form-label">Last name</label>
+                    <div class="indOk"></div>
+                    <div class="indWrong"></div>
+                    <div class="valid lastName">Please provide a valid Last name</div>
+                </div>
+               <div class="form-field">
+                    <input type="text" name="inEmail" id="">
+                    <label class="form-label">Email</label>
+                    <div class="indOk"></div>
+                    <div class="indWrong"></div>
+                    <div class="valid email">Enter valid email</div>
+                </div>
+                <div class="form-field">
+                    <input type="password" name="inPass" id="">
+                    <label class="form-label">Password</label>
+                    <div class="indOk"></div>
+                    <div class="indWrong"></div>
+                    <div class="valid password">Enter valid password</div>
+                </div>
+            </form>
+            <form name="formSignUp">
+                    <p class="pCheckBox"><input type="checkbox" name="iAgree" id="check" class="iAgree">
+                    <label for="check"> I agree with Private Policy</label>
+                    </p>
+                    <input type="button" class="btn-signeup" name="signUp" value="sign Up" disabled>
+            </form>
+        </div>
+        <div class="popup">
+            <div class="popup-main">
+                <div class="popup-main__title">
+                    <div class="popup-main__ico">
+                        <img src="img/icoOC_big.png" alt="">
+                    </div>
+                </div>
+                <div class="popup-main__footer">
+                    <p class="popup-main__pTitle">Great</p>
+                    <p class="popup-main_pText">Your account has been created successfully</p>
+                    <button type="button" class="start">Start Exploring</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+<script src="scripts/script.js"></script>   
+</html>
