@@ -1,0 +1,196 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+.first-page {
+    width: 1440px;
+    height: 768px;
+    margin: 0 auto;
+    background: url('../img/bg.png') center/cover no-repeat;
+}
+
+/* Устройства X-Large (большие настольные компьютеры, менее 1400 пикселей) */
+@media (max-width: 1399.98px) {
+    .first-page {
+        width: 1200px;
+        height: 640px;
+    }
+}
+
+/* // Устройства Large (настольные компьютеры, менее 1200 пикселей) */
+@media (max-width: 1199.98px) {
+    .first-page {
+        width: 1000px;
+        height: 533.333px;
+    }
+}
+
+/* // Устройства Medium (планшеты, менее 992 пикселей) */
+@media (max-width: 991.98px) {
+    .first-page {
+        width: 833.333px;
+        height: 444.444px;
+    }
+}
+
+/* // Устройства Smal (телефоны с горизонтальной ориентацией, менее 768 пикселей) */
+@media (max-width: 767.98px) {
+    .first-page {
+        width: 461px;
+        height: 290px;
+    }
+}
+
+/* // Устройства X-Small (портретные телефоны, менее 576 пикселей) */
+@media (max-width: 575.98px) {
+    .first-page {
+        width: 373px;
+        height: 275px;
+    }
+}
+
+.myContainer {
+    width: 1440px;
+    height: 544px;
+}
+
+.myBlock {
+    max-width: 1107px;
+    width: 100%;
+    margin-top: 76px;
+    
+}
+
+.myTitle {
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.myP {
+    text-align: justify;
+}
+
+
+@media (max-width: 575.98px) {
+    .myBlock {
+        width: 312px;
+        margin-top: 30px;
+    }
+
+    .myTitle {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+.myBg {
+    background-color: #FFFAF2;
+    margin-top: 76px;
+}
+
+.myBlock-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myBlock-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.myImg {
+    width: 100%;
+}
+
+.myBlock-progress {
+    flex: 0 1 635px;
+}
+
+.progress {
+    height: 24px;
+}
+
+.progressTitle {
+    flex: 0 1 180px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.progressTools {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+@media (max-width: 575.98px) {
+    .myBlock-flex {
+        display: block;
+    }
+}
+
+.sl-info {
+    flex: 0 1 349px;
+}
+
+.sl-info-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.sl-info-text {
+    text-align: justify;
+}
+
+.sl-image {
+    display: flex;
+    flex: 0 1 635px;
+}
+
+.img-column {
+    margin-left: 30px;
+}
+
+.img-item {
+    margin-bottom: 26px;
+    width: 100%;
+}
+
+.img-item:last-child {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 575.98px) {
+    .img-column {
+        margin-left: 14px;
+    }
+    .img-column:first-child {
+        margin-left: 0px;
+    }
+}
+
+.containerSize {
+    max-width: 1107px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.nav.myNav .nav-link {
+    color: black;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav.myNav {
+    margin-right: 150px;
+}
