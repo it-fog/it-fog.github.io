@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+.user-list {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 20px 0px;
+}
+
+.left {
+  width: 500px;
+  padding-right: 20px;
+}
+
+.input-data > input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid #e8eceb;
+  padding-left: 5px;
+  margin-bottom: 15px;
+}
+
+.input-data > input:focus {
+  -webkit-box-shadow: 0px 0px 4px 1px #096CED;
+          box-shadow: 0px 0px 4px 1px #096CED;
+}
+
+.input-lable {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input-btn input {
+  width: 100px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid #12a542;
+  border-radius: 5px;
+  background: none;
+  color: #12a542;
+  cursor: pointer;
+}
+
+.input-btn input:hover {
+  background-color: #12a542;
+  color: #fff;
+}
+
+.input-btn__editus {
+  display: none;
+}
+
+.right {
+  width: 800px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.row-title {
+  width: 100%;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  border-top: 2px solid #e8eceb;
+  border-bottom: 2px solid #e8eceb;
+  margin-bottom: 5px;
+}
+
+.row-title__nom {
+  width: 50px;
+}
+
+.row-title__login {
+  width: 150px;
+}
+
+.row-title__pass {
+  width: 150px;
+}
+
+.row-title__email {
+  width: 150px;
+}
+
+.row-title__edit {
+  width: 70px;
+}
+
+.row-title__delete {
+  width: 70px;
+}
+
+.row-info {
+  width: 100%;
+  height: 45px;
+  display: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #e8eceb;
+  border-bottom: 2px solid #e8eceb;
+}
+
+.row-info div {
+  height: 40px;
+  line-height: 40px;
+}
+
+.row-info button {
+  width: 50px;
+  height: 30px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.row-info__i-nom {
+  width: 50px;
+}
+
+.row-info__i-login {
+  width: 150px;
+}
+
+.row-info__i-pass {
+  width: 150px;
+}
+
+.row-info__i-email {
+  width: 150px;
+}
+
+.row-info__i-edit {
+  width: 70px;
+}
+
+.row-info__btn-edit {
+  background-color: #fec106;
+}
+
+.row-info__btn-edit:hover {
+  background-color: #d6a81d;
+}
+
+.row-info__i-delete {
+  width: 70px;
+}
+
+.row-info__btn-del {
+  background-color: #dc3544;
+  color: #fff;
+}
+
+.row-info__btn-del:hover {
+  background-color: #912b34;
+}
