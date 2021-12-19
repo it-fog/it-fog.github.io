@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?d025ee");
+  src: url("../fonts/icomoon.eot?d025ee#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?d025ee") format("truetype"), url("../fonts/icomoon.woff?d025ee") format("woff"), url("../fonts/icomoon.svg?d025ee#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-brands:before {
+  content: "\e900";
+}
+
+.icon-github-brands:before {
+  content: "\e901";
+}
+
+.icon-linkedin-in-brands:before {
+  content: "\e902";
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.sign-up {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 2px solid #bfbfbf;
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #3ab271;
+  border-radius: 8px 8px 0px 0px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.block-account-form {
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+}
+
+.account-form input {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.account-form p {
+  color: #43424a;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.account-form .in-text {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #d7dedf;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.account-form input[type="button"] {
+  width: 100%;
+  height: 35px;
+  background-color: #72c685;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.account-form label[for="i-agree"] {
+  font-size: 16px;
+}
+
+.radio-gender.mLeft {
+  margin-left: 15px;
+}
+
+.selPos {
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 100%;
+  padding-left: 5px;
+  border: 1px solid #d7dedf;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.sign-out {
+  display: none;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid #bfbfbf;
+  border-radius: 10px;
+}
+
+.so-title {
+  width: 100%;
+  height: 110px;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #3ab271;
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -45px;
+}
+
+.avaMan {
+  background: url("../img/avaMan.png") center no-repeat;
+}
+
+.avaWoman {
+  background: url("../img/avaWoman.png") center no-repeat;
+}
+
+.so-info {
+  text-align: center;
+}
+
+.formName {
+  font-size: 18px;
+  font-weight: 700;
+  color: #353531;
+  margin-bottom: 20px;
+}
+
+.formMail {
+  font-size: 16px;
+  color: #98938c;
+  margin-bottom: 27px;
+}
+
+.formPosit {
+  font-size: 16px;
+  color: #98938c;
+  margin-bottom: 30px;
+}
+
+.so-button {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  border-top: 2px solid #f9f9f9;
+}
+
+.so-button input[type="button"] {
+  width: 80px;
+  height: 35px;
+  border: 1px solid #75a48a;
+  border-radius: 5px;
+  background-color: #f8fdfb;
+  color: #75a48a;
+}
+
+.so-footer {
+  width: 100%;
+  height: 45px;
+  border-radius: 0px 0px 8px 8px;
+  background-color: #3ab271;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.so-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.so-footer ul a {
+  font-size: 25px;
+  color: #fff;
+}
