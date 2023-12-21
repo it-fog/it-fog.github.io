@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding-top: 135px;
+  background: url("../img/background_4.jpg") center no-repeat;
+}
+
+.main {
+  max-width: 1160px;
+  height: 750px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+.sStyle {
+  -webkit-box-flex: 48%;
+      -ms-flex: 48%;
+          flex: 48%;
+  padding-top: 30px;
+}
+
+.form-tasks {
+  padding-left: 10px;
+}
+
+.form-tasks p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.form-addtasks {
+  width: 100%;
+}
+
+.form-addtasks p {
+  text-align: center;
+}
+
+.enter-text {
+  width: 400px;
+  height: 35px;
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 80px;
+  height: 35px;
+  font-size: 18px;
+  line-height: 35px;
+  border-radius: 5px;
+  color: white;
+  background-color: #494949;
+  cursor: pointer;
+}
+
+.popUpEnter {
+  width: 700px;
+  height: 150px;
+  font-size: 16px;
+  color: red;
+  border-radius: 5px;
+  background-color: lightpink;
+  padding: 15px;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  margin-left: -350px;
+  position: absolute;
+  display: none;
+}
+
+.poupTitle {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.alertclose {
+  background-color: lightpink;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.close span {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 30px;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: lightpink;
+  cursor: pointer;
+}
+
+.popUpDel {
+  width: 700px;
+  height: 150px;
+  font-size: 16px;
+  color: red;
+  border-radius: 5px;
+  background-color: lightpink;
+  padding: 15px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -350px;
+  display: none;
+}

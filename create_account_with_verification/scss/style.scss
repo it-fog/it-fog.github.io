@@ -1,0 +1,206 @@
+@import 'reset';
+@import 'fonts';
+// @import 'iconfontstyle';
+// @import 'variables';
+// @import 'mixins';
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696c6d;
+}
+
+.main {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}  
+
+.form-field {
+    width: 100%;
+    height: 75px;
+    position: relative;
+    margin-bottom: 55px;
+    
+    border-radius: 7px;
+    background-color: #fff;
+    input {
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        border: 2px solid #d4d8d7;
+        border-radius: 7px;
+        font-size: 20px;
+        color: #3a3d3d;
+        transition: 0.2s;
+    }
+}
+
+.form-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    line-height: 75px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.indOk {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -12px;
+    height: 24px;
+    width: 21px;
+    background: url(../img/icoOk.png) center no-repeat;
+}
+
+.indWrong {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -7.5px;
+    width: 15px;
+    height: 15px;
+    background: url(../img/icoWrong.png) center no-repeat;
+}
+
+.valid {
+    display: none;
+    width: 330px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(238, 235, 231);
+    line-height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -43px;
+    left: 0;
+    background-color: #e85754;
+}
+
+.btn-signeup {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #b2d4f2;
+    background-color: #4da2fc;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(122, 122, 122, 0.5);
+    z-index: 1;
+}
+
+.popup-main {
+    width: 650px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -325px;
+    
+		&_pText {
+            font-size: 26px;
+		}
+
+		&__title {
+            height: 40%;
+            background-color: #3bb8a0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+		}
+
+		&__ico {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 6px solid #fff;
+            background-color: #3bb8a0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 70%;   
+            }
+		}
+
+		&__footer {
+            height: 60%;
+            padding: 20px;
+            text-align: center;
+            background-color: #fdfdfd;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+		&__pTitle {
+            font-size: 50px;
+            color: #4c5666;
+		}
+}
+
+.start {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #fdf1c2;
+    background-color: #f3ae18;    
+    position: relative;
+    z-index: 2;
+}
+
+.start:hover {
+    background-color: #9c7012;
+}
+
+.start:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 15px;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 50%;
+    right: 5px;
+    margin-top: -7.5px;
+    z-index: 1000;
+}
+
+.pCheckBox {
+    font-size: 16px;
+}

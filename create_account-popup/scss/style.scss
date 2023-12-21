@@ -1,0 +1,191 @@
+@import 'reset';
+// @import 'fonts';
+@import 'iconfontstyle';
+// @import 'variables';
+// @import 'mixins';
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="button"] {
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.sign-up {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #bfbfbf;
+    border-radius: 10px;
+}
+
+.title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #3ab271;
+    border-radius: 8px 8px 0px 0px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.block-account-form {
+    width: 100%;
+    padding: 20px 20px 0px 20px;      
+}
+
+.account-form {
+    input {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    p {
+        color: #43424a;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .in-text {
+        width: 100%;
+        height: 35px;
+        border: 1px solid #d7dedf;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+    input[type="button"] {
+        width: 100%;
+        height: 35px;
+        background-color: #72c685;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 500;
+    }
+    label[for="i-agree"] {
+        font-size: 16px;
+    }
+}
+
+.radio-gender.mLeft {
+    margin-left: 15px;
+}
+
+.selPos {
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+    padding-left: 5px;
+    border: 1px solid #d7dedf;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.sign-out {
+    display: none;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #bfbfbf;
+    border-radius: 10px;
+}
+
+.so-title {
+    width: 100%;
+    height: 110px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #3ab271;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -45px;
+}
+
+.avaMan {
+    background: url("../img/avaMan.png") center no-repeat;
+}
+
+.avaWoman {
+    background: url("../img/avaWoman.png") center no-repeat;
+}
+
+.so-info {
+    text-align: center;
+}
+
+.formName {
+    font-size: 18px;
+    font-weight: 700;
+    color: #353531;
+    margin-bottom: 20px;
+}
+
+.formMail {
+    font-size: 16px;
+    color: #98938c;
+    margin-bottom: 27px;
+}
+
+.formPosit {
+    font-size: 16px;
+    color: #98938c;
+    margin-bottom: 30px;
+}
+
+.so-button {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border-top: 2px solid #f9f9f9;
+    input[type="button"] {
+        width: 80px;
+        height: 35px;
+        border: 1px solid #75a48a;
+        border-radius: 5px;
+        background-color: #f8fdfb;
+        color: #75a48a;
+    }
+}
+
+.so-footer {
+    width: 100%;
+    height: 45px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #3ab271;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul {
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+        a {
+            font-size: 25px;
+            color: #fff;
+        }
+    }
+}
+
+
+
+
